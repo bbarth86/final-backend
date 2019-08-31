@@ -1,14 +1,6 @@
 const mongoose = require('mongoose')
 const Assignment = require('./assignment')
 
-
-/*
-Model for User (Student or Admin)
-  User's required values are username, first_name, last_name, email, password
-  User may have admin privileges
-  User may have assignments associated to them
-*/
-
 const schema = mongoose.Schema({
   firstName: {
     type: String,
